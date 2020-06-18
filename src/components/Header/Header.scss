@@ -1,0 +1,138 @@
+@import "../../config.scss";
+
+.header {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 600px;
+  padding-top: 150px;
+  box-sizing: border-box;
+  &__mobile-menu {
+    display: none;
+  }
+  &__decoration {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background-image: url(./angle-bg-min.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+  }
+  &__filter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+    background-image: url(./parallax-1-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  & h1 {
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0072be;
+  }
+  & p {
+    max-width: 40%;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #0072be;
+  }
+}
+
+.nav {
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0072be;
+  padding: 0 20px;
+  z-index: 20;
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
+  &__article {
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  &__link {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding: 22px 0;
+    transition: 0.3s;
+    border-bottom: 2px solid #0072be;
+    &:hover {
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+.mobile {
+  display: none;
+  position: absolute;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0072be;
+  border-radius: 20px;
+  z-index: 20;
+  transition: 0.3s;
+  top: -200px;
+  opacity: 0.9;
+  right: 20px;
+  &__active {
+    top: 80px;
+  }
+  &__nav-link {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    &__mobile-menu {
+      display: inline-block;
+    }
+  }
+  .nav {
+    &__items {
+      display: none;
+    }
+  }
+  .mobile {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    &__article {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+  }
+  .header {
+    & p {
+      max-width: 90%;
+    }
+  }
+}

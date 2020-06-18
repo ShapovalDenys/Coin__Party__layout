@@ -1,0 +1,44 @@
+.advantages {
+  margin: 70px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card {
+    padding: 30px;
+    box-sizing: border-box;
+    max-width: 370px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: white;
+      border-radius: 5px;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      box-shadow: 5px 5px 20px rgb(228, 227, 227);
+      transform: translateY(-5px);
+    }
+    & h2 {
+      font-size: 20px;
+    }
+    & img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .advantages {
+    &__cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
