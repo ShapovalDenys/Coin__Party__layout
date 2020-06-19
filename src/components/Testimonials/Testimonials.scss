@@ -1,0 +1,60 @@
+.testimonials {
+  max-width: 1200px;
+  margin: 0 auto;
+  &__article {
+    padding-top: 70px;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  &__image {
+    display: block;
+    margin: 0 auto;
+  }
+  &__carousel {
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  &__wrap {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-user-picture {
+      margin-bottom: 20px;
+      width: 200px;
+      height: 200px;
+    }
+    &-user-article {
+      margin-bottom: 20px;
+    }
+    &-user-text {
+      text-align: center;
+    }
+  }
+}
+
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.carousel-control-prev-icon {
+  filter: invert(100%);
+}
+
+.carousel-indicators li {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .testimonials {
+    &__wrap {
+      &-user-article {
+        margin-top: 40px;
+      }
+    }
+  }
+}

@@ -15,7 +15,7 @@
     bottom: 0;
     width: 100%;
     height: 250px;
-    background-image: url(./angle-bg-min.png);
+    background-image: url(../Background/angle-bg-min.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,9 +26,9 @@
     bottom: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.8;
+    filter: contrast(60%);
     z-index: -1;
-    background-image: url(./parallax-1-min.jpg);
+    background-image: url(../Background/parallax-1-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,6 +59,7 @@
   top: 0;
   height: 70px;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   background-color: #0072be;
@@ -73,16 +74,24 @@
     color: white;
     font-size: 30px;
     font-weight: normal;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    padding: 11.5px 0;
+    &:hover {
+      color: white;
+    }
   }
   &__link {
     display: inline-block;
     color: white;
     font-size: 20px;
-    padding: 22px 0;
+    padding: 19px 0;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     border-bottom: 2px solid #0072be;
     &:hover {
       border-bottom: 2px solid white;
+      color: white;
     }
   }
 }
@@ -95,6 +104,7 @@
   background-color: #0072be;
   border-radius: 20px;
   z-index: 20;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   top: -200px;
   opacity: 0.9;

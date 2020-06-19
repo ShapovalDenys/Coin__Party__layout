@@ -27,18 +27,18 @@ const Header = () => {
           <ul className="mobile__nav-items">
             <li className="mobile__nav-item"><a className="mobile__nav-link" href="#">Home</a></li>
             <li className="mobile__nav-item"><a className="mobile__nav-link" href="#advantages">Service</a></li>
-            <li className="mobile__nav-item"><a className="mobile__nav-link" href="/#">Features</a></li>
-            <li className="mobile__nav-item"><a className="mobile__nav-link" href="/#">Pricing</a></li>
-            <li className="mobile__nav-item"><a className="mobile__nav-link" href="/#">Contact</a></li>
+            <li className="mobile__nav-item"><a className="mobile__nav-link" href="#special-features">Features</a></li>
+            <li className="mobile__nav-item"><a className="mobile__nav-link" href="#price">Pricing</a></li>
+            <li className="mobile__nav-item"><a className="mobile__nav-link" href="#contact-us">Contact</a></li>
           </ul>
         </div>
 
       <ul className="nav__items">
         <li className="nav__item"><a className="nav__link" href="#">Home</a></li>
         <li className="nav__item"><a className="nav__link" href="#advantages">Service</a></li>
-        <li className="nav__item"><a className="nav__link" href="/#">Features</a></li>
-        <li className="nav__item"><a className="nav__link" href="/#">Pricing</a></li>
-        <li className="nav__item"><a className="nav__link" href="/#">Contact</a></li>
+        <li className="nav__item"><a className="nav__link" href="#special-features">Features</a></li>
+        <li className="nav__item"><a className="nav__link" href="#price">Pricing</a></li>
+        <li className="nav__item"><a className="nav__link" href="#contact-us">Contact</a></li>
       </ul>
     </nav>
 
