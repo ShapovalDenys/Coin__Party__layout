@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f9b8f4fc8311b178e77b683e794ffc3",
+    "revision": "2cbd84c43e9174a9ef2b93df7f7ec9ca",
     "url": "./index.html"
   },
   {
-    "revision": "d5664ef25047e4f0d02c",
-    "url": "./static/css/main.d2d05995.chunk.css"
+    "revision": "6ba52828b0ea162d6489",
+    "url": "./static/css/main.b1173efe.chunk.css"
   },
   {
-    "revision": "77f52ae1d3c7f2037384",
-    "url": "./static/js/2.2ea1b0bf.chunk.js"
+    "revision": "dd0f0a4dad7e6ed1b459",
+    "url": "./static/js/2.8ec6b2c2.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "./static/js/2.2ea1b0bf.chunk.js.LICENSE.txt"
+    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
+    "url": "./static/js/2.8ec6b2c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d5664ef25047e4f0d02c",
-    "url": "./static/js/main.611ce14f.chunk.js"
+    "revision": "6ba52828b0ea162d6489",
+    "url": "./static/js/main.f81cb74a.chunk.js"
   },
   {
     "revision": "1610068e25a4810046d0",
@@ -36,15 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/angle-bg-min.93f4f9f6.png"
   },
   {
-    "revision": "e18bbf611f2a2e43afc071aa2f4e1512",
-    "url": "./static/media/glyphicons-halflings-regular.e18bbf61.ttf"
-  },
-  {
     "revision": "af52f2f8a51fb612a251621587a592a5",
     "url": "./static/media/parallax-1-min.af52f2f8.jpg"
-  },
-  {
-    "revision": "e23a7dcaefbde4e74e263247aa42ecd7",
-    "url": "./static/media/themify.e23a7dca.ttf"
   }
 ]);
