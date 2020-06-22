@@ -87,9 +87,9 @@
     padding: 4px 0;
     -webkit-transition: $TransitionDuration;
     transition: $TransitionDuration;
-    border-bottom: 1px solid $mainThemeColor;
+    border-bottom: 2px solid $mainThemeColor;
     &:hover {
-      border-bottom: 1px solid white;
+      border-bottom: 2px solid white;
       color: white;
     }
   }
