@@ -25,7 +25,7 @@ const Header = () => {
 
         <div className={isActiveMenu ? "mobile mobile__active" : "mobile"}>
           <ul className="mobile__nav-items">
-            <li className="mobile__nav-item"><a className="mobile__nav-link" href="/">Home</a></li>
+            <li className="mobile__nav-item"><a className="mobile__nav-link" href="#">Home</a></li>
             <li className="mobile__nav-item"><a className="mobile__nav-link" href="#advantages">Service</a></li>
             <li className="mobile__nav-item"><a className="mobile__nav-link" href="#special-features">Features</a></li>
             <li className="mobile__nav-item"><a className="mobile__nav-link" href="#price">Pricing</a></li>
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
 
         <ul className="nav__items">
-        <li className="nav__item"><a className="nav__link" href="/">Home</a></li>
+        <li className="nav__item"><a className="nav__link" href="#">Home</a></li>
         <li className="nav__item"><a className="nav__link" href="#advantages">Service</a></li>
         <li className="nav__item"><a className="nav__link" href="#special-features">Features</a></li>
         <li className="nav__item"><a className="nav__link" href="#price">Pricing</a></li>
