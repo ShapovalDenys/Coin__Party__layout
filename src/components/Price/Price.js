@@ -7,7 +7,7 @@ const Price = () => (
     <div id="price" className="price__breakpoint"></div>
     <div className="price__decoration"></div>
     <h2 className="price__article">AFORTABLE PRICE</h2>
-    <img className="price__image" src="./img/angle-down-white.svg"></img>
+    <img className="price__image" src="./img/angle-down-white.svg" alt="decoration"></img>
 
     <div className="price__cards">
 

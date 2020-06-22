@@ -6,7 +6,7 @@ const ContactUs = () => (
   <section className="contact-us">
     <div id="contact-us" className="contact-us__breakpoint"></div>
     <h2 className="contact-us__article">CONTACT WITH US</h2>
-    <img className="contact-us__image" src="./img/angle-down-blue.svg"></img>
+    <img className="contact-us__image" src="./img/angle-down-blue.svg" alt="contact us"></img>
 
     <div className="contact-us__wrap">
       <div className="contact-us__contacts contacts">

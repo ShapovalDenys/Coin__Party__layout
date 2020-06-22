@@ -13,7 +13,7 @@ const Testimonials = () => {
   return (
     <section className="testimonials">
       <h2 className="testimonials__article">CLIENT SAYS</h2>
-      <img className="testimonials__image" src="./img/angle-down.svg"></img>
+      <img className="testimonials__image" src="./img/angle-down.svg" alt="decoration"></img>
       <div className="testimonials__carousel">
       <Carousel activeIndex={index} onSelect={handleSelect} interval={3000}>
         <Carousel.Item>

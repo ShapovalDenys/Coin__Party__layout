@@ -6,7 +6,7 @@ const SpecialFeatures = () => (
   <section className="special-features">
         <div id="special-features" className="special-features__breakpoint"></div>
     <h2 className="special-features__article">SPECIAL FEATURES</h2>
-    <img className="special-features__image" src="./img/angle-down.svg"></img>
+    <img className="special-features__image" src="./img/angle-down.svg" alt="special features"></img>
 
     <div className="special-features__cards">
 

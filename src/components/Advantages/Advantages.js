@@ -3,7 +3,7 @@ import React from 'react';
 import './Advantages.scss';
 
 const Advantages = () => (
-  <section className="advantages">
+  <section className="advantages" >
         <div id="advantages" className="advantages__breakpoint"></div>
     <div className="advantages__cards">
 

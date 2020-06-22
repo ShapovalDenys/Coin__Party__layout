@@ -37,8 +37,6 @@
     margin-left: 20px;
     font-size: 30px;
     color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #0072be;
   }
   & p {
     max-width: 40%;
@@ -47,7 +45,7 @@
     color: white;
     margin-left: 20px;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #0072be;
+    -webkit-text-stroke-color: $mainThemeColor;
   }
 }
 
@@ -62,7 +60,7 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #0072be;
+  background-color: $mainThemeColor;
   padding: 0 20px;
   z-index: 20;
   &__items {
@@ -74,8 +72,8 @@
     color: white;
     font-size: 30px;
     font-weight: normal;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+    -webkit-transition: $TransitionDuration;
+    transition: $TransitionDuration;
     padding: 11.5px 0;
     &:hover {
       color: white;
@@ -84,13 +82,14 @@
   &__link {
     display: inline-block;
     color: white;
-    font-size: 20px;
-    padding: 19px 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    border-bottom: 2px solid #0072be;
+    font-size: 18px;
+    line-height: 60px;
+    padding: 4px 0;
+    -webkit-transition: $TransitionDuration;
+    transition: $TransitionDuration;
+    border-bottom: 1px solid $mainThemeColor;
     &:hover {
-      border-bottom: 2px solid white;
+      border-bottom: 1px solid white;
       color: white;
     }
   }
@@ -101,11 +100,11 @@
   position: absolute;
   margin: 0 auto;
   padding: 20px;
-  background-color: #0072be;
+  background-color: $mainThemeColor;
   border-radius: 20px;
   z-index: 20;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  -webkit-transition: $TransitionDuration;
+  transition: $TransitionDuration;
   top: -200px;
   opacity: 0.9;
   right: 20px;
@@ -115,6 +114,10 @@
   &__nav-link {
     color: white;
   }
+}
+
+.active-link {
+  border-bottom: 2px solid white;
 }
 
 @media screen and (max-width: 1000px) {
